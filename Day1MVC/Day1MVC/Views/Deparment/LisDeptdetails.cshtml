@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Day1MVC.Models.Department>
+@{
+    ViewData["Title"] = "LisDeptdetails";
+}
+
+<h1>LisDeptdetails</h1>
+
+@foreach(var item in Model)
+            {
+                <li>@item.Id</li>
+                <li>@item.Dname</li>
+            }

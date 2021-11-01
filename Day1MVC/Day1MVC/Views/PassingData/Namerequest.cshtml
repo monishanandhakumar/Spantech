@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewData["Title"] = "Namerequest";
+}
+
+<h1>Namerequest</h1>
+
+@foreach(var item in TempData["Friendsname"] as List<string>)
+            {
+                <li>@item</li>
+            }
