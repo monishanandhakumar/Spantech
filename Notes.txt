@@ -1,0 +1,39 @@
+.NetCore
+
+--Open Source
+--Cross platform
+--lightweight
+--Asyn IO
+-- IOT ,ML,Gamming
+--Cloud
+--CLI 
+--Dependecy Injection
+Server
+--Kestrel ,VS--IIS,Selfhosting,Apache
+
+
+ASP.Net --Tightly coupled
+
+MVC -- Model View Controller
+ 
+ 	controller--
+
+Model--Data   view --Cshtml  
+--seperation of concern
+
+Middleware
+--it is s/w helps you to execute function in http request and http response pipeline
+
+Json:Doc type , info is stored as key value pair data
+
+
+Passing data from controller to view
+
+
+
+
+
+
+
+
+
