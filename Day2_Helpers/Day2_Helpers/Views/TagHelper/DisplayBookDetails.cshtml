@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Day2_Helpers.Models.BookModel>
+@{
+    ViewData["Title"] = "DisplayBookDetails";
+}
+
+<h1>DisplayBookDetails</h1>
+
+@foreach(var item in Model)
+            {
+                <li>@item.BookName</li>
+                <li>@item.Description</li>
+            }

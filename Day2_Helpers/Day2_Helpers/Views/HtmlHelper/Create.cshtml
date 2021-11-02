@@ -1,0 +1,30 @@
+﻿@model Register
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+@using(Html.BeginForm())
+            {
+<table border="1" cellspacing="5" cellpadding="5">
+    <tr>
+        <td>@Html.Label("Enter your Name")</td>
+        <td>@Html.TextBox("Name")</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Enter your Password")</td>
+        <td>@Html.Password("txtpwd")</td>
+    </tr>
+    <tr>
+        <td>@Html.Label("Enter your Salary")</td>
+        <td>@Html.TextBox("txtsalary")</td>
+    </tr>
+
+    <tr>
+        <td>@Html.Label("Enter your Address")</td>
+        <td>@Html.TextBox("txtaddress")</td>
+    </tr>
+
+</table>
+<input type="submit" value="save" />
+            }
