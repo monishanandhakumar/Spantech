@@ -1,0 +1,15 @@
+﻿@model IEnumerable<Day3_EFCore_DBFirst.Models.Category>
+@{
+    ViewData["Title"] = "Getdetails";
+}
+
+<h1>Getdetails</h1>
+
+@foreach(var cat in Model)
+            {
+<ul>
+    <li>@cat.CategoryId</li>
+    <li>@cat.CategoryName</li>
+    <li>@cat.Description</li>
+</ul>
+            }

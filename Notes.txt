@@ -29,6 +29,72 @@ Json:Doc type , info is stored as key value pair data
 
 Passing data from controller to view
 
+Day 2:
+
+View ->cshtml ==>cs+Html
+
+razor view -->Razor engine
+
+Helper 
+
+1.Tag helper
+2.HTML helper
+
+
+different http request -- get,post,put,patch and delete
+
+create busreservation form using tag helper
+
+
+EfCore
+-------
+
+--ORM -->object relational Mapper
+POCO--
+
+Two Approach
+
+1.DBFirst approach
+2.CodeFirst approach
+
+
+DBFirst approach
+
+1.create a mvc application
+
+2.Install the below packages from nuget package manager
+
+	a.Microsoft.Entityframeworkcore.sqlserver
+	b.Microsoft.EntityFrameworkCore.Tools
+	c.Microsoft.Entityframeworkcore.design
+
+
+
+
+3.In  tools-->nugetpackage-->Package manger console
+Scaffold-DbContext "Server=DESKTOP-U8J1M3C\MSSQLSERVER01;Database=Northwind;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+4. appsetting.json
+
+"ConnectionStrings": {
+    "DefaultConnection": "Server=DESKTOP-U8J1M3C\\MSSQLSERVER01;Database=Northwind;Trusted_Connection=True;"
+  }
+
+5.In startup.cs in configureservice add the service
+services.AddDbContext<NorthwindContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+
+
+6.controller
+
+
+Working with stored procedure
+
+Any changes in database to refelect those changes in efcore
+
+Scaffold-DbContext "Server=DESKTOP-U8J1M3C\MSSQLSERVER01;Database=Northwind;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
+
 
 
 
