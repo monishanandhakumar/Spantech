@@ -150,3 +150,5 @@ C:\OnlineTraining\Spantech\Gitfolder\Day3_EFCore_DBFirst\Day3_EFCore_DBFirst\obj
 C:\OnlineTraining\Spantech\Gitfolder\Day3_EFCore_DBFirst\Day3_EFCore_DBFirst\obj\Debug\net5.0\Razor\Views\Category\Display.cshtml.g.cs
 C:\OnlineTraining\Spantech\Gitfolder\Day3_EFCore_DBFirst\Day3_EFCore_DBFirst\obj\Debug\net5.0\Razor\Views\SP\TenProducts.cshtml.g.cs
 C:\OnlineTraining\Spantech\Gitfolder\Day3_EFCore_DBFirst\Day3_EFCore_DBFirst\obj\Debug\net5.0\Razor\Views\SP\Order.cshtml.g.cs
+C:\OnlineTraining\Spantech\Gitfolder\Day3_EFCore_DBFirst\Day3_EFCore_DBFirst\obj\Debug\net5.0\Razor\Views\VM\CusOrder.cshtml.g.cs
+C:\OnlineTraining\Spantech\Gitfolder\Day3_EFCore_DBFirst\Day3_EFCore_DBFirst\obj\Debug\net5.0\Razor\Views\Category\Edit.cshtml.g.cs

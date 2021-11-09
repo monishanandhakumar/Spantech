@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Day3_EFCore_DBFirst.ViewModel;
 
 #nullable disable
 
@@ -795,5 +796,7 @@ namespace Day3_EFCore_DBFirst.Models
         }
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+
+        public DbSet<Day3_EFCore_DBFirst.ViewModel.CustomerVM> CustomerVM { get; set; }
     }
 }

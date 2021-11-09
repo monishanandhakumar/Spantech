@@ -68,7 +68,24 @@ namespace Day3_EFCore_DBFirst.Controllers
 
         //Edit assignment
 
+        public IActionResult Edit(int id)
+        {
+            Category category = db.Categories.Find(id);
 
+            return View(category);
+        }
+        [HttpPost]
+        public IActionResult Edit(Category c)
+        {
+            Category category = db.Categories.Find(c.CategoryId);
+
+            category.CategoryName = c.CategoryName;
+            category.Description = c.Description;
+            category.Picture = c.Picture;
+            db.SaveChanges();
+
+            return RedirectToAction("Getdetailscat");
+        }
 
     }
 }

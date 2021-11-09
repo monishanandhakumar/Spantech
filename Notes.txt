@@ -96,10 +96,13 @@ Any changes in database to refelect those changes in efcore
 Scaffold-DbContext "Server=DESKTOP-U8J1M3C\MSSQLSERVER01;Database=Northwind;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
 
 
+Code First Approach
 
 
+Routing:
 
-
+1.Conventional Routing
+2.Attribute Routing
 
 
 
