@@ -105,4 +105,15 @@ Routing:
 2.Attribute Routing
 
 
+WebApi
+
+
+
+HttpRequest
+
+1.Get
+2.Post
+3.Put
+4.Delete
+
 
